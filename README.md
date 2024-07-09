@@ -45,6 +45,7 @@ Execution Phases
 
 The development phase can be extended with use cases like generating the summary of the schema etc.
 
+The Output can be seen in the TextToSQL.mp4 file which is part of this repository.
 
 
 
