@@ -1,0 +1,6 @@
+streamlit
+vanna[postgres]
+vanna[chromadb]
+openai
+vanna
+httpx
