@@ -32,7 +32,7 @@ def ConnectionToDataBase():
                     CreationOfCacheSessionVariable()
                     
                     # Creation of Vanna Object with Llama3 Model
-                    vn = VannaObjectCreation(config={'api_key': 'sk-proj-GNHT4noCay7Yp0Gsh3h8T3BlbkFJb40I8ghuyfHKlqdMeGoi', 'model': 'gpt-4-turbo'})
+                    vn = VannaObjectCreation(config={'api_key': 'sk-proj-GNHT4noCay7Yp0Gsh3h8T3BlbkFJb40I8ghuyfHKlqdMeGoiop', 'model': 'gpt-4-turbo'})
                     returnValue_Connection = vn.ConnectionToPostgres(str(postgres_ip),str(postgres_db),str(postgres_user),str(postgres_password),int(postgres_port))
                     if returnValue_Connection == "Success":
 
